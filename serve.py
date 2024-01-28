@@ -14,4 +14,4 @@ def handle_request():
         return f"Private IP address: {private_ip}", 200
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000)  # Run the server on port 80
+    app.run(host='0.0.0.0', port=80)  # Run the server on port 80
